@@ -1,0 +1,20 @@
+register :
+- name
+- username
+- password
+- phone
+- address
+
+tampilan awal loginview
+alur register => loginview -> registerview -> loginview
+alur login => loginview -> mainview
+
+mainview menampilkan:
+data user yang berhasil login
+- name
+- phone
+- address
+
+rule :
+1. database hanya dapat diakses oleh class tertentu
+2. view hanya bertuga menangani tampilan (input dan show)
